@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shivay Fitness Gym — modern training in Sultanpur. Strength, cardio, and a supportive community. Follow us on Instagram."
+    />
+    <title>Shivay Fitness Gym | Sultanpur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header" id="top">
+      <div class="header__inner">
+        <a class="logo" href="#top" aria-label="Shivay Fitness Gym home">
+          <span class="logo__mark">SF</span>
+          <span class="logo__text">Shivay Fitness</span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav" id="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#training">Training</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#visit">Visit</a>
+          <a
+            class="nav__cta"
+            href="https://www.instagram.com/official_shivaay_fitness/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__media" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1920&q=80"
+            alt=""
+            width="1920"
+            height="1080"
+            fetchpriority="high"
+          />
+          <div class="hero__scrim"></div>
+        </div>
+        <div class="hero__content container">
+          <p class="hero__eyebrow">Sultanpur · Training that hits different</p>
+          <h1 class="hero__title">
+            Build strength.<br />
+            <span class="hero__title-accent">Own your hour.</span>
+          </h1>
+          <p class="hero__lead">
+            Shivay Fitness Gym is your space for serious workouts and a friendly
+            atmosphere — equipment you can trust, coaching that pushes you, and a
+            community that shows up.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#visit">Plan your visit</a>
+            <a
+              class="btn btn--ghost"
+              href="https://www.instagram.com/official_shivaay_fitness/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Follow on Instagram</a
+            >
+          </div>
+          <dl class="hero__stats">
+            <div>
+              <dt>Open training</dt>
+              <dd>Strength &amp; cardio</dd>
+            </div>
+            <div>
+              <dt>Location</dt>
+              <dd>Atul Plaza, Sultanpur</dd>
+            </div>
+            <div>
+              <dt>Updates</dt>
+              <dd>@official_shivaay_fitness</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container about__grid">
+          <div class="about__copy">
+            <h2 class="section__title">Not just a gym — a routine you keep.</h2>
+            <p class="section__lead">
+              Members describe Shivay Fitness as an awesome place to work out,
+              with excellent service and a welcoming vibe. Whether you are
+              starting fresh or leveling up, you will find the energy here to
+              stay consistent.
+            </p>
+            <ul class="about__list">
+              <li>Focused floor space for lifts and functional work</li>
+              <li>Supportive coaches and staff who know your name</li>
+              <li>A community that trains hard and respects the grind</li>
+            </ul>
+          </div>
+          <figure class="about__figure">
+            <img
+              src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&q=80"
+              alt="Athlete training with dumbbells in a modern gym"
+              width="900"
+              height="1125"
+              loading="lazy"
+            />
+            <figcaption class="about__caption">
+              Train with intent — follow
+              <a
+                href="https://www.instagram.com/official_shivaay_fitness/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >@official_shivaay_fitness</a
+              >
+              for daily motivation.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="training section section--alt" id="training">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">What you get on the floor</h2>
+            <p class="section__lead section__lead--narrow">
+              Everything you need for a full session — from warm-up to last rep.
+            </p>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">01</span>
+              <h3 class="card__title">Strength &amp; free weights</h3>
+              <p class="card__text">
+                Racks, plates, and dumbbells for progressive overload and real
+                results.
+              </p>
+            </article>
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">02</span>
+              <h3 class="card__title">Cardio that fits your goal</h3>
+              <p class="card__text">
+                Conditioning tools to build endurance, burn fuel, and recover
+                smarter.
+              </p>
+            </article>
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">03</span>
+              <h3 class="card__title">Space to move</h3>
+              <p class="card__text">
+                Room for functional patterns, mobility, and accessory work
+                between main lifts.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section" id="gallery">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Inside the vibe</h2>
+            <p class="section__lead section__lead--narrow">
+              Real training energy — swap these shots anytime with photos from
+              your Instagram highlights.
+            </p>
+          </div>
+          <div class="gallery__grid">
+            <figure class="gallery__item gallery__item--tall">
+              <img
+                src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80"
+                alt="Gym interior with weight equipment"
+                width="800"
+                height="1200"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80"
+                alt="Barbell on rack in gym"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=800&q=80"
+                alt="Person doing cable exercise"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--wide">
+              <img
+                src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&w=1200&q=80"
+                alt="Rows of dumbbells in gym"
+                width="1200"
+                height="675"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="visit section section--alt" id="visit">
+        <div class="container visit__grid">
+          <div>
+            <h2 class="section__title">Visit Shivay Fitness</h2>
+            <p class="section__lead">
+              Stop by near Panchmukhi Mandir — we are easy to find around the
+              post office and Atul Plaza in Sultanpur.
+            </p>
+            <address class="visit__address">
+              Panchmukhi Mandir area, Post Office<br />
+              Atul Plaza, Sultanpur, Uttar Pradesh
+            </address>
+            <div class="visit__actions">
+              <a
+                class="btn btn--primary"
+                href="https://www.google.com/maps/search/?api=1&amp;query=Shivaay+Fitness+Gym+Sultanpur+Atul+Plaza"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Open in Google Maps</a
+              >
+              <a class="btn btn--ghost" href="tel:+919807555151">Call the gym</a>
+            </div>
+          </div>
+          <div class="visit__card">
+            <h3 class="visit__card-title">Contact</h3>
+            <ul class="visit__contacts">
+              <li>
+                <span class="visit__label">Phone</span>
+                <a href="tel:+919807555151">+91 98075 55151</a>
+              </li>
+              <li>
+                <span class="visit__label">Email</span>
+                <a href="mailto:sshobhitshuklaa@gmail.com"
+                  >sshobhitshuklaa@gmail.com</a
+                >
+              </li>
+              <li>
+                <span class="visit__label">Instagram</span>
+                <a
+                  href="https://www.instagram.com/official_shivaay_fitness/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >@official_shivaay_fitness</a
+                >
+              </li>
+            </ul>
+            <p class="visit__note">
+              Hours and class updates are posted on Instagram — message there for
+              the fastest reply.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <span class="logo__mark">SF</span>
+          <span>© <span id="year"></span> Shivay Fitness Gym</span>
+        </div>
+        <div class="footer__links">
+          <a href="#top">Back to top</a>
+          <a
+            href="https://www.instagram.com/official_shivaay_fitness/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
